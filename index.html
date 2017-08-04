@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+  <html lang ="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Trivia Quiz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Assets/CSS/style.css">
+        <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+    <body>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">Trivia Game</h1>
+          <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div id= "timer"><br><span id="timer"></span></br>
+
+</div>
+    <div class="container">
+
+     <!-- /container -->
+<div id= "starter">
+<form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+
+<li><div class="question">1. How many states make up the United States?</div></li>
+<input id="answer" type="radio" name="group1" value="wrong"> 100<br>
+<input id="answer" type="radio" name="group1" value="wrong"> 52<br>
+<input id="answer" type="radio" name="group1" value="wrong"> 49<br>
+<input id="answer" type="radio" name="group1" value="correct"> 50<hr>
+
+<li><div class="question">2. Who was the skeptic on X-Files?</div></li>
+<input id="answer" type="radio" name="group2" value="wrong">No one<br>
+<input id="answer" type="radio" name="group2" value="correct">Scully<br>
+<input id="answer" type="radio" name="group2" value="wrong">Mulder<br>
+<input id="answer" type="radio" name="group2" value="wrong"> Michael Scott<hr>
+
+<li><div class="question">3. Finish the catch phrase "That's what ____ said!"</div></li>
+<input id="answer" type="radio" name="group3" value="wrong">He<br>
+<input id="answer" type="radio" name="group3" value="wrong"> You<br>
+<input id="answer" type="radio" name="group3" value="wrong"> Dwight<br>
+<input id="answer" type="radio" name="group3" value="correct" >She<hr>
+
+
+<li><div class="question">4. How many members of the Beatles are there?</div></li>
+<input id="answer" type="radio" name="group4" value="correct"> 4<br>
+<input id="answer" type="radio" name="group4" value="wrong"> 2<br>
+<input id="answer" type="radio" name="group4" value="wrong"> 3<br>
+<input id="answer" type="radio" name="group4" value="wrong"> 6<hr>
+
+<li><div class="question">5. Is making up questions hard?</div></li>
+<input id="answer" type="radio" name="group5" value="wrong">no because I know everything<br>
+<input id="answer" type="radio" name="group5" value="wrong">my dog ate this option<br>
+<input id="answer" type="radio" name="group5" value="correct">yes<br>
+<input id="answer" type="radio" name="group5" value="wrong">no because reality is a construct<hr>
+
+<li><div class="question">6. What color road did Dorothy follow?</div></li>
+<input id="answer" type="radio" name="group6" value="wrong">green<br>
+<input id="answer" type="radio" name="group6" value="wrong"> blue<br>
+<input id="answer" type="radio" name="group6" value="wrong"> red<br>
+<input id="answer" type="radio" name="group6" value="correct" >yellow<hr>
+
+<li><div class="question">7. Is coding hard?</div></li>
+<input id="answer" type="radio" name="group7" value="wrong"> yes<br>
+<input id="answer" type="radio" name="group7" value="wrong"> no<br>
+<input id="answer" type="radio" name="group7" value="correct"> not hard, challenging<br>
+<input id="answer" type="radio" name="group7" value="wrong"> you should take a bootcamp!<hr>
+
+</form>
+
+</div>
+
+<div id="results"><button class="submit" >Submit</button>
+
+</div>
+</div>
+  <div class="Tally">
+    <h2>Questions Left:
+    <span id= "QuestionsRemaining"></span>
+    <br>
+        Correct:
+
+      <span id= "Correct"></span>
+      </br>
+      Incorrect: 
+      <span id= "Incorrect"></span>
+    </h2>
+  </div>
+  
+        <script src="./Assets/Javascript/java.js"></script>
+
+    </body>
+    </script>
+  </html>

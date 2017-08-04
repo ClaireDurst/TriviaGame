@@ -1,0 +1,39 @@
+.text-center{
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#results{
+	padding: 20px;
+	align-content: center;
+	text-align: center;
+}
+
+.container{
+	align-content: center;
+}
+
+.Tally{
+	padding-left: 40px;
+	display: none;
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+	
+}
+
+#quiz{
+	text-align: center;
+	font-size: 25px;
+
+
+}
+
+#timer{
+	text-align: center;
+	font-size: 30px;
+}
