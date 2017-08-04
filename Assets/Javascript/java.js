@@ -4,7 +4,6 @@ var count=30;
 
 var counter=setInterval(timer, 1000);
 
-var countee=setTimeout(timer, 1000);
 
 
 
@@ -35,12 +34,7 @@ function timer()
     });
 
 
-    $("button").click(function(){
-    $("#timer").setTimeout();
-    });
-
-
-	var answeredWrong = 7;
+  var answeredWrong = 7;
   var answeredRight = 0;
   var questionsRemaining = 7;
 
@@ -77,4 +71,3 @@ for(var i = 1; i <= 7; i++) {
 
 
   });
-
