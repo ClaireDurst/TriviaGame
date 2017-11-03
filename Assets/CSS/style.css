@@ -9,11 +9,12 @@
 	padding: 20px;
 	align-content: center;
 	text-align: center;
-}
+ }
 
-.container{
+.containerquestions{
 	align-content: center;
-}
+ 	background-color: #cddc39;
+ }
 
 .Tally{
 	padding-left: 40px;
@@ -33,7 +34,20 @@ li{
 
 }
 
-#timer{
-	text-align: center;
-	font-size: 30px;
+h1{
+
 }
+
+.jumbotron {
+	background-color: #9ccc65;
+	width: 500px;
+	align-content: center;
+}
+
+ html {
+ 	background-color: #cddc39;
+ }
+
+ .question {
+ 	font:;
+ }

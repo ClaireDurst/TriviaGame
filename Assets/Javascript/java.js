@@ -7,20 +7,6 @@ var counter=setInterval(timer, 1000);
 
 
 
-function timer()
-{
-  count=count-1;
-  if (count <= 0)
-  {
-     clearInterval(counter);
-   alert("Time is UP!!");
-   $("button").click()
-  }
-
-  document.getElementById("timer").innerHTML=count + " secs";
-
-  //Do code for showing the number of seconds here
-}
     $("button").click(function(){
         $(".Tally").show();
     });
